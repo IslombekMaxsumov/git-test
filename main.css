@@ -18,3 +18,31 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.header {
+    height: 100vh;
+    background: darkred;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 30px;
+}
